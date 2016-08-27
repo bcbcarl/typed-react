@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "jsx": "react",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "tsDist",
+    "dist",
+    "node_modules",
+    "webpack.config.js"
+  ]
+}

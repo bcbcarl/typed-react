@@ -1,0 +1,37 @@
+{
+  "name": "typescript-counter-example",
+  "version": "0.0.0",
+  "description": "TypeScript counter example.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:webpack": "webpack",
+    "build": "npm run clean && npm run build:webpack",
+    "serve": "http-server -p 8000",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcbcarl/typed-react.git"
+  },
+  "author": "Carl X. Su <bcbcarl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcbcarl/typed-react/issues"
+  },
+  "homepage": "https://github.com/bcbcarl/typed-react",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "tslint-loader": "^2.1.5",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
+  }
+}

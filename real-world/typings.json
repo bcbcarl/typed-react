@@ -1,0 +1,18 @@
+{
+  "globalDependencies": {
+    "isomorphic-fetch": "registry:dt/isomorphic-fetch#0.0.0+20160524142046",
+    "lodash": "registry:dt/lodash#4.14.0+20160817155621",
+    "react": "registry:dt/react#0.14.0+20160817201227",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160724070751",
+    "react-router": "registry:dt/react-router#2.0.0+20160813233016",
+    "react-router-redux": "registry:dt/react-router-redux#4.0.0+20160724070902",
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "redux-devtools": "registry:dt/redux-devtools#3.0.0+20160703120921",
+    "redux-devtools-dock-monitor": "registry:dt/redux-devtools-dock-monitor#1.0.1+20151216103641",
+    "redux-devtools-log-monitor": "registry:dt/redux-devtools-log-monitor#1.0.1+20151216103641",
+    "redux-logger": "registry:dt/redux-logger#2.6.0+20160619033847",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921",
+    "webpack-env": "registry:dt/webpack-env#1.12.2+20160316155526"
+  }
+}
