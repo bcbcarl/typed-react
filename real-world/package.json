@@ -7,7 +7,7 @@
     "build:webpack": "NODE_ENV=production webpack --config config/webpack.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "serve": "http-server -p 3000",
-    "start": "node server.js"
+    "start": "webpack-dashboard -- node server.js"
   },
   "repository": {
     "type": "git",
@@ -51,6 +51,7 @@
     "tslint-loader": "^2.1.5",
     "typescript": "^1.8.10",
     "webpack": "^1.9.11",
+    "webpack-dashboard": "^0.1.8",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.9.1",
     "webpack-notifier": "^1.4.0"

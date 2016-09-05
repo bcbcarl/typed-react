@@ -7,9 +7,12 @@ var compiler = webpack(config);
 
 var webpackDevMiddleware = require('webpack-dev-middleware');
 var webpackHotMiddleware = require('webpack-hot-middleware');
+var DashboardPlugin = require('webpack-dashboard/plugin');
 
 var app = express();
 var port = process.env.PORT || 3000;
+
+compiler.apply(new DashboardPlugin());
 
 app.use(webpackDevMiddleware(compiler, {
   noInfo: true,
