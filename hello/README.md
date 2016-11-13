@@ -5,8 +5,7 @@ A TypeScript Hello example.
 Based on [TypeScript quick start guide][1].
 
 ```bash
-npm install
-typings install
+yarn
 npm start
 ```
 

@@ -34,6 +34,3 @@ node_modules
 
 # Visual Studio Code browsing history
 .vscode/.browse.VC.db*
-
-# TypeScript typings
-typings

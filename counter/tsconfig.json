@@ -7,8 +7,11 @@
     "noImplicitAny": true,
     "sourceMap": true
   },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
   "exclude": [
-    "tsDist",
     "dist",
     "node_modules",
     "webpack.config.js"

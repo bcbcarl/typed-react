@@ -3,7 +3,6 @@
 A TypeScript real-world example.
 
 ```bash
-npm install
-typings install
+yarn
 npm start
 ```

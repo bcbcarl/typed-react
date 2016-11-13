@@ -5,8 +5,7 @@ A TypeScript Redux Saga example.
 Based on [Redux Saga Beginner Tutorial][1].
 
 ```bash
-npm install
-typings install
+yarn
 npm start
 ```
 

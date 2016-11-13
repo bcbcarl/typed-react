@@ -51,7 +51,7 @@ export default class Explore extends Component<ExploreProps, any> {
     return (
       <div>
         <p>Type a username or repo full name and hit 'Go':</p>
-        <input size="45"
+        <input size={45}
                ref="input"
                defaultValue={this.props.value}
                onKeyUp={this.handleKeyUp} />

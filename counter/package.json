@@ -21,17 +21,20 @@
   },
   "homepage": "https://github.com/bcbcarl/typed-react",
   "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "redux": "^3.5.2"
+    "@types/react": "^0.14.47",
+    "@types/react-dom": "^0.14.18",
+    "@types/redux": "^3.6.31",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "http-server": "^0.9.0",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2",
+    "ts-loader": "^1.2.0",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
-    "typescript": "^1.8.10",
-    "webpack": "^1.13.2"
+    "typescript": "^2.1.1",
+    "webpack": "^1.13.3"
   }
 }

@@ -1,8 +1,0 @@
-{
-  "globalDependencies": {
-    "react": "registry:dt/react#0.14.0+20160817201227",
-    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
-    "redux": "registry:dt/redux#3.5.2+20160703092728",
-    "redux-saga": "registry:dt/redux-saga#0.9.1+20160703120921"
-  }
-}

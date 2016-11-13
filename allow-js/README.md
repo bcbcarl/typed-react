@@ -3,7 +3,6 @@
 A TypeScript AllowJs example.
 
 ```bash
-npm install
-typings install
+yarn
 npm start
 ```

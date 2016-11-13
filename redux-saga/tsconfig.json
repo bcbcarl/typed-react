@@ -6,6 +6,10 @@
     "noImplicitAny": true,
     "sourceMap": true
   },
+  "include": [
+    "*.ts",
+    "*.tsx"
+  ],
   "exclude": [
     "node_modules"
   ]

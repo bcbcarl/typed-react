@@ -3,7 +3,6 @@
 A TypeScript Counter example.
 
 ```bash
-npm install
-typings install
+yarn
 npm start
 ```
